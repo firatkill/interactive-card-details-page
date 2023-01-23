@@ -1,6 +1,7 @@
 import React from "react";
 import SubmitPageCSS from "./SubmitPage.module.css";
 import { AiOutlineCheck } from "react-icons/ai";
+
 function SubmitPage() {
   const styled = SubmitPageCSS;
   const clickHandler = () => {
