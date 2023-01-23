@@ -1,0 +1,174 @@
+.cardContainer {
+  position: Absolute;
+  left: 10%;
+  top: 25%;
+  width: 430px;
+  height: 230px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(232, 231, 235);
+  box-shadow: 0px 0px 15px 5px rgba(121, 108, 108, 1);
+}
+.active {
+  transform: rotateY(180deg);
+  animation: rotateAnimation 0.6s linear;
+}
+@keyframes rotateAnimation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+.frontSide {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  background: rgb(100, 72, 254);
+  background: linear-gradient(
+    319deg,
+    rgba(100, 72, 254, 1) 0%,
+    rgba(100, 147, 224, 1) 25%,
+    rgba(178, 86, 209, 1) 43%,
+    rgba(200, 96, 87, 1) 55%,
+    rgba(100, 57, 233, 1) 100%
+  );
+  padding: 2rem;
+}
+.circleHolder {
+  display: flex;
+  align-items: center;
+}
+.bigCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+
+  background-color: white;
+  margin: -1rem;
+}
+.smallCircle {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid black;
+
+  margin-left: 2rem;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-top: -1.5rem;
+  color: white;
+}
+.cardNumber {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+.cardHolder {
+}
+.expDate {
+  font-weight: bolder;
+}
+.backSide {
+  padding: 2rem;
+}
+.line {
+  background-color: black;
+  width: 150%;
+  margin-left: -2rem;
+  margin-top: -1rem;
+  height: 50px;
+}
+.cvvline {
+  background-color: rgb(172, 181, 191);
+  text-align: right;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  justify-content: right;
+  padding-right: 1rem;
+  color: White;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.smallWords {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  opacity: 0.5;
+}
+.smallWords_first4 {
+  display: flex;
+
+  margin-bottom: 1rem;
+}
+.smallWords_first4 div {
+  margin-right: 1rem;
+  height: 5px;
+  background-color: gray;
+  border-radius: 15px;
+}
+.smallWords_1 {
+  width: 8rem;
+}
+.smallWords_2,
+.smallWords_3 {
+  width: 2rem;
+}
+.smallWords_4 {
+  width: 1rem;
+  margin: 0 !important;
+}
+.smallWords_second4 {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.smallWords_second4 div {
+  margin-right: 1rem;
+  height: 5px;
+  background-color: gray;
+  border-radius: 15px;
+}
+.smallWords_5 {
+  width: 2rem;
+}
+.smallWords_6 {
+  width: 3rem;
+}
+.smallWords_7 {
+  width: 3rem;
+}
+.smallWords_8 {
+  width: 1rem;
+  margin: 0 !important;
+}
+.smallWords_last4 {
+  display: flex;
+}
+.smallWords_last4 div {
+  margin-right: 1rem;
+  height: 5px;
+  background-color: gray;
+  border-radius: 15px;
+}
+.smallWords_9 {
+  width: 1rem;
+}
+.smallWords_10,
+.smallWords_11 {
+  width: 2rem;
+}
+.smallWords_12 {
+  width: 8rem;
+  margin: 0 !important;
+}

@@ -1,0 +1,11 @@
+.container {
+  background: rgb(49, 44, 88);
+  background: linear-gradient(
+    319deg,
+    rgba(49, 44, 88, 1) 38%,
+    rgba(74, 25, 80, 1) 70%,
+    rgba(33, 9, 47, 1) 100%
+  );
+  width: 45%;
+  height: 100vh;
+}

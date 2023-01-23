@@ -1,0 +1,40 @@
+.submitPageContainer {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  letter-spacing: 3px;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.checkCircle {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 2rem;
+  background: rgb(126, 108, 204);
+  background: linear-gradient(
+    180deg,
+    rgba(126, 108, 204, 1) 0%,
+    rgba(53, 8, 193, 1) 100%
+  );
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: White;
+}
+.checkIcon {
+}
+.button {
+}

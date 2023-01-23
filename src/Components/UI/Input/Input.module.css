@@ -1,0 +1,50 @@
+.inputGroup {
+  display: flex;
+  flex-direction: Column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+.row input {
+  margin-right: 1rem;
+  text-align: center;
+  padding-left: 0;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+input {
+  border: 1.5px solid;
+  border-color: linear-gradient(
+    319deg,
+    rgba(100, 72, 254, 1) 0%,
+    rgba(96, 5, 148, 1) 100%
+  );
+  border-radius: 4px;
+
+  font-size: 1.7rem;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::placeholder {
+  font-size: 1.5rem;
+}

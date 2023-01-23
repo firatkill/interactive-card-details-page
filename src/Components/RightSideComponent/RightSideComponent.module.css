@@ -1,0 +1,32 @@
+.container {
+  background-color: white;
+  width: 100%;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+.inputForm_row {
+  display: flex;
+  width: 100%;
+}
+button {
+  width: 104%;
+
+  margin: Auto;
+  margin-top: 0.5rem;
+  font-size: 1.7rem;
+  background-color: #21092f;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+
+  font-weight: 600;
+}
