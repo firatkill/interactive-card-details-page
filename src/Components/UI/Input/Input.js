@@ -6,7 +6,11 @@ function Input(props) {
 
   return (
     <div className={styled.inputGroup}>
-      <label>{props.labelText}</label>
+      <label
+        class={props.labelText === "EXP.DATE (MM / YY)" && styled.expDateLabel}
+      >
+        {props.labelText}
+      </label>
       {props.type === "cardNumber" && (
         <input
           required

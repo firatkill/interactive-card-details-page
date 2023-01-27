@@ -5,10 +5,26 @@
   width: 430px;
   height: 230px;
   border-radius: 15px;
-  overflow: hidden;
+  overflow: scroll;
   background-color: rgb(232, 231, 235);
   box-shadow: 0px 0px 15px 5px rgba(121, 108, 108, 1);
 }
+
+@media screen and (max-width: 500px) {
+  .cardContainer {
+    width: 90vw;
+    height: calc(90vw / 1.87);
+    top: 13% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .cardContainer {
+    left: auto;
+    right: auto;
+    top: 15%;
+  }
+}
+
 .active {
   transform: rotateY(180deg);
   animation: rotateAnimation 0.6s linear;

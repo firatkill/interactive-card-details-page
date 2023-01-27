@@ -5,7 +5,17 @@
   flex-direction: column;
   align-items: center;
 }
-
+@media screen and (max-width: 1200px) {
+  .submitPageContainer {
+    margin-right: 7vw;
+  }
+}
+@media screen and (max-width: 992px) {
+  .submitPageContainer {
+    margin-top: 100px;
+    margin-right: auto;
+  }
+}
 .header {
   letter-spacing: 3px;
   margin: 0;
